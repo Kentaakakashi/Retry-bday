@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><title>Memories</title>
+<link rel="stylesheet" href="global.css"></head>
+<body class="memory-page">
+<a class="back-link" href="menu.html" onclick="playClick()">← Back</a>
+<div class="container page-enter page-enter-active">
+  <h2 class="animated-header">Memories 📸</h2>
+  <div class="carousel" style="margin-top:12px">
+    <div class="carousel-viewport">
+      <div class="slide-track">
+        <div class="slide" data-caption="Coffee shop day ☕ — the first time we talked"><img src="assets/couple1.jpg" alt="m1"></div>
+        <div class="slide" data-caption="Sunset walk 🌅 — felt like a movie"><img src="assets/couple2.jpg" alt="m2"></div>
+        <div class="slide" data-caption="Goofy selfie 🤪 — made me laugh"><img src="assets/couple3.jpg" alt="m3"></div>
+      </div>
+    </div>
+    <div class="carousel-controls center-row" style="margin-top:12px">
+      <button id="prevSlide" class="small-btn" onclick="playClick()">‹ Prev</button>
+      <div class="caption">Caption appears here</div>
+      <button id="nextSlide" class="small-btn" onclick="playClick()">Next ›</button>
+    </div>
+    <div style="margin-top:18px">
+      <a class="next-ultra-cute" href="wishes.html" onclick="playClick()">Next Page → <span class="ribbon-left"></span><span class="ribbon-right"></span><span class="sparkle">✨</span></a>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
